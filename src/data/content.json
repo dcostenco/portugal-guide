@@ -75,5 +75,114 @@
       "text": "Мыс Рока и Синтра – это сказка! Спасибо Сергею за великолепную организацию, комфортную машину и море впечатлений.",
       "date": "Август 2025"
     }
-  ]
+  ],
+  "blog": {
+    "title": "Полезная информация",
+    "categories": [
+      {
+        "id": "about-portugal",
+        "title": "О Португалии",
+        "icon": "🇵🇹",
+        "items": [
+          { "title": "Туризм в Португалии сегодня", "url": "https://ksn-travel.com/turizm-v-portugalii-segodnya/" },
+          { "title": "Эта удивительная страна Португалия", "url": "https://ksn-travel.com/eta-udivitelnaya-strana-portugaliya-3/" },
+          { "title": "Эпоха Великих географических открытий", "url": "https://ksn-travel.com/epoha-velikih-geograficheskih-otkryitiy/" },
+          { "title": "Немного истории", "url": "https://ksn-travel.com/nemnogo-istorii/" },
+          { "title": "О гастрономических турах в Португалии", "url": "https://ksn-travel.com/471-2/" },
+          { "title": "Феномен Португалии", "url": "https://ksn-travel.com/fenomen-portugalii/" },
+          { "title": "Семь чудес Португалии", "url": "https://ksn-travel.com/sem-chudes-portugalii/" }
+        ]
+      },
+      {
+        "id": "cities",
+        "title": "Города Португалии",
+        "icon": "🏛️",
+        "items": [
+          { "title": "Алкобаса", "url": "https://ksn-travel.com/3603-2/" },
+          { "title": "Баталья", "url": "https://ksn-travel.com/batalya/" },
+          { "title": "Келуш", "url": "https://ksn-travel.com/kelush-i-gorod-i-dvorets/" },
+          { "title": "Лиссабон", "url": "https://ksn-travel.com/istoriya-lissabona-v-kartinkah/" },
+          { "title": "Мафра", "url": "https://ksn-travel.com/tapada-nacional-de-mafra/" },
+          { "title": "Обидуш", "url": "https://ksn-travel.com/4421-2/" },
+          { "title": "Порту", "url": "https://ksn-travel.com/2147-2/" },
+          { "title": "Синтра", "url": "https://ksn-travel.com/sintra-novyiy-ray-na-zemle/" },
+          { "title": "Томар", "url": "https://ksn-travel.com/tomar-poslednee-pristanishhe-tamplierov/" },
+          { "title": "Фатима", "url": "https://ksn-travel.com/fatima/" },
+          { "title": "Эвора", "url": "https://ksn-travel.com/evora/" },
+          { "title": "Эшторил", "url": "https://ksn-travel.com/eshtoril-2/" },
+          { "title": "Замки и исторические деревни", "url": "https://ksn-travel.com/zamki-i-istoricheskie-derevni/" }
+        ]
+      },
+      {
+        "id": "nature",
+        "title": "Природа Португалии",
+        "icon": "🌿",
+        "items": [
+          { "title": "Мыс Рока", "url": "https://ksn-travel.com/myis-roka/" },
+          { "title": "Мыс Святого Винсента", "url": "https://ksn-travel.com/myis-svyatogo-vinsenta/" },
+          { "title": "Пещера Груташ да Моэда", "url": "https://ksn-travel.com/peshhera-grutash-da-moeda/" },
+          { "title": "Пещеры Мира-де-Айре", "url": "https://ksn-travel.com/peshheryi-mira-de-ayre/" },
+          { "title": "Сэрра да Аррабида", "url": "https://ksn-travel.com/serra-da-arrabida/" }
+        ]
+      },
+      {
+        "id": "wine",
+        "title": "Виноделие Португалии",
+        "icon": "🍷",
+        "items": [
+          { "title": "Винно-гастрономические туры", "url": "https://ksn-travel.com/vinodelie-portugalii/" }
+        ]
+      },
+      {
+        "id": "videos",
+        "title": "Видео",
+        "icon": "🎬",
+        "items": [
+          { "title": "Видеоэкскурсия — Португалия", "url": "https://ksn-travel.com/2297-2/" },
+          { "title": "Дворец Келуш", "url": "https://ksn-travel.com/5607-2/" },
+          { "title": "О Лиссабоне", "url": "https://ksn-travel.com/video-o-lissabone/" },
+          { "title": "О монастыре Алкобаса", "url": "https://ksn-travel.com/o-monastyire-alkobasa/" },
+          { "title": "Мыс Рока", "url": "https://ksn-travel.com/myis-roka-2/" },
+          { "title": "О Синтре", "url": "https://ksn-travel.com/o-sintre/" },
+          { "title": "О тамплиерах. Кто они?", "url": "https://ksn-travel.com/5348-2/" },
+          { "title": "Об Эворе", "url": "https://ksn-travel.com/o-evore/" },
+          { "title": "О Лиссабонской Ривьере", "url": "https://ksn-travel.com/o-eshtorile/" }
+        ]
+      },
+      {
+        "id": "folklore",
+        "title": "Народное творчество",
+        "icon": "🎭",
+        "items": [
+          { "title": "Легенды Португалии", "url": "https://ksn-travel.com/legendyi-portugalii/" }
+        ]
+      },
+      {
+        "id": "blog",
+        "title": "Наш блог",
+        "icon": "📝",
+        "items": [
+          { "title": "Путешествуя по Португалии", "url": "https://ksn-travel.com/puteshestvuya-po-portugalii/" }
+        ]
+      },
+      {
+        "id": "photos",
+        "title": "Фото с нашими гостями",
+        "icon": "📸",
+        "items": [
+          { "title": "2025 год", "url": "https://ksn-travel.com/1-5/" },
+          { "title": "2024 год", "url": "https://ksn-travel.com/2024-god/" },
+          { "title": "2023 год", "url": "https://ksn-travel.com/1-4/" },
+          { "title": "2022 год", "url": "https://ksn-travel.com/2023-2/" },
+          { "title": "2021 год", "url": "https://ksn-travel.com/2021-god" },
+          { "title": "2020 год", "url": "https://ksn-travel.com/2020-god/" },
+          { "title": "2019 год", "url": "https://ksn-travel.com/12867-2/" },
+          { "title": "2018 год", "url": "https://ksn-travel.com/2018-god/" },
+          { "title": "2017 год", "url": "https://ksn-travel.com/2017-god/" },
+          { "title": "2016 год", "url": "https://ksn-travel.com/2016-god/" },
+          { "title": "2015 год", "url": "https://ksn-travel.com/2015-god/" }
+        ]
+      }
+    ]
+  }
 }

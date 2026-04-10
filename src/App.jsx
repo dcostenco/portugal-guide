@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Tours from './components/Tours';
+import Blog from './components/Blog';
 import Reviews from './components/Reviews';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -22,6 +23,7 @@ function App() {
         <Hero content={siteData.hero} />
         <About content={siteData.about} />
         <Tours tours={siteData.tours} />
+        <Blog blog={siteData.blog} />
         <Reviews reviews={siteData.reviews} />
         <Contact siteVars={siteData.siteVars} />
       </main>

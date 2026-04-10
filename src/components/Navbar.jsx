@@ -26,6 +26,7 @@ export default function Navbar() {
         <div className={`nav-links ${isOpen ? 'active' : ''}`}>
           <a href="#about" onClick={() => setIsOpen(false)}>Обо мне</a>
           <a href="#tours" onClick={() => setIsOpen(false)}>Туры и Экскурсии</a>
+          <a href="#blog" onClick={() => setIsOpen(false)}>О Португалии</a>
           <a href="#reviews" onClick={() => setIsOpen(false)}>Отзывы</a>
           <a href="#contact" className="nav-contact-btn" onClick={() => setIsOpen(false)}>Связаться</a>
         </div>

@@ -1,0 +1,129 @@
+.blog {
+  background-color: var(--color-background);
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+
+@media (min-width: 768px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.blog-category {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.blog-category:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+.blog-category-header {
+  background: linear-gradient(135deg, var(--color-primary), #003d66);
+  color: white;
+  padding: var(--space-4) var(--space-6);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s ease;
+}
+
+.blog-category-header:hover {
+  background: linear-gradient(135deg, #004675, var(--color-primary));
+}
+
+.blog-category-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.blog-category-title {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.blog-category-count {
+  font-size: 0.75rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.blog-category-toggle {
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.blog-category-toggle.open {
+  transform: rotate(180deg);
+}
+
+.blog-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.blog-items.open {
+  max-height: 600px;
+}
+
+.blog-item {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.blog-item:last-child {
+  border-bottom: none;
+}
+
+.blog-item a {
+  display: block;
+  padding: var(--space-2) var(--space-6);
+  color: var(--color-text);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  position: relative;
+  padding-left: calc(var(--space-6) + 12px);
+}
+
+.blog-item a::before {
+  content: '›';
+  position: absolute;
+  left: var(--space-6);
+  color: var(--color-secondary);
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.blog-item a:hover {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  padding-left: calc(var(--space-6) + 18px);
+}
+
+.blog-item a:hover::before {
+  transform: translateX(4px);
+}
