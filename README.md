@@ -1,16 +1,57 @@
-# React + Vite
+# 🇵🇹 Сергей Корень — Частный гид по Португалии
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Персональный сайт частного гида по Лиссабону и Португалии.
 
-Currently, two official plugins are available:
+🌐 **Сайт:** [portugal-guide.vercel.app](https://portugal-guide.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📚 Документация
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Документ | Описание |
+|----------|----------|
+| 📖 [**Инструкция по управлению сайтом**](HOW_TO_EDIT.md) | Пошаговая инструкция на русском: как менять тексты, туры, отзывы и контакты |
+| 🔊 [**Аудио-инструкция (MP3)**](docs/tutorial/tutorial_audio_ru.mp3) | Голосовая инструкция на русском (1 минута) — скачайте и послушайте |
+| 🚀 [**Инструкция по деплою на Vercel**](VERCEL_DEPLOYMENT.md) | Как разместить сайт в интернете бесплатно |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✏️ Быстрое редактирование
+
+Чтобы изменить текст на сайте, откройте этот файл и нажмите карандаш ✏️:
+
+👉 **[Редактировать контент сайта](src/data/content.json)** 👈
+
+Подробная инструкция с картинками — в [HOW_TO_EDIT.md](HOW_TO_EDIT.md)
+
+---
+
+## 📸 Скриншоты
+
+| Главная страница репозитория | Редактор контента |
+|:---:|:---:|
+| ![Репозиторий](docs/tutorial/tutorial_step1_repo.png) | ![Редактор](docs/tutorial/tutorial_step2_content.png) |
+
+---
+
+## 🏗️ Что можно менять
+
+- 📞 **Телефон и WhatsApp** — номер, ссылка на мессенджер
+- 📝 **Тексты** — приветствие, описание, «обо мне»
+- 🗺️ **Экскурсии** — название, маршрут, длительность, описание
+- ⭐ **Отзывы** — добавлять новые отзывы туристов
+- 📧 **Email и соцсети** — адрес почты, ссылка на Facebook
+
+---
+
+## 🛠️ Технологии
+
+- [React](https://react.dev/) + [Vite](https://vite.dev/)
+- Vanilla CSS (Glassmorphism, параллакс)
+- Хостинг: [Vercel](https://vercel.com/) (бесплатно)
+
+---
+
+## 🆘 Нужна помощь?
+
+Если что-то не получается — напишите Дмитрию, он поможет!
